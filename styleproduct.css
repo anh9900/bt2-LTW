@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Start header */
+#header .user a,
+#header li a {
+    color: #fff;
+    padding: 20px 40px;
+    font-weight: 600;
+}
+
+#header .dropdown-menu a {
+    color: #000;
+}
+
+#header .user:hover,
+#header li:hover {
+    background-color: #ccc;
+    border-radius: 5px;
+}
+
+#header .user:hover a,
+#header li:hover a {
+    color: #000;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+#header .user {
+    margin-left: 150px;
+}
+
+.jumbotron {
+    background-color: #000 !important;
+    color: #ccc;
+    padding: 100px 25px !important;
+    font-family: Montserrat, sans-serif;
+    margin-top: 75px;
+    border-radius: 0px !important;
+  }
+
+/* Start content */
+
+#content .book img {
+    width: 200px;
+    height:250px;
+}
+
+#content .book p {
+    text-align: center;
+}
+
+#content .book .col-2 {
+    animation-name: example;
+    animation-duration: 3s;
+}
+
+@keyframes example {
+    from {
+        opacity: 0;
+        transform: translateY(70%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}

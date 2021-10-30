@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tiệm sách Bunnie</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./icons/themify-icons/themify-icons.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div id= "main">
+    <div id="header" class="navbar navbar-expand-lg fixed-top" style="height: 75px; background-color: #000;">
+      <ul class="navbar-nav col-8" >
+        <li class="nav-item"><a class="nav-link" href="#">Trang chủ</a></li>
+        <li class="nav-item dropdown">
+          <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Thể loại</a>
+          <div class="dropdown-menu" style="background-color: #ccc;">
+            <a href="./listproduct1/listproduct1.html" class="dropdown-item">Truyện tranh thiếu nhi</a>
+            <a href="./listproduct2/listproduct2.html" class="dropdown-item">Truyện tình cảm</a>
+            <a href="./listproduct3/listproduct3.html" class="dropdown-item">Truyện kinh dị</a>
+            <a href="./listproduct4/listproduct4.html" class="dropdown-item">Sách văn học</a>
+          </div>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="#author1">Tác giả nổi bật</a></li>
+        <li class="nav-item"><a class="nav-link" href="#book1">Tác phẩm nổi bật</a></li>
+      </ul>
+
+      <div class="col-4">
+        <div class="user" style="width: 180px;">
+          <a class="nav-link" href="./user.html">
+          Tài khoản 
+          <i class="ti-user"></i>
+        </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="jumbotron text-center">
+      <h1>Tiệm sách Bunnie</h1> 
+      <p style="font-style: italic;">Suy nghĩ trước khi bạn nói và hãy đọc trước khi bạn nghĩ</p> 
+      <form>
+        <div class="input-group">
+          <input type="text" class="form-control"  placeholder="Tìm kiếm" required>
+          <div class="input-group-append">
+            <button type="button" class="btn btn-dark">OK</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  
+    <div id="slider" class="carousel slide" data-ride="carousel">
+      <ul class="carousel-indicators">
+        <li data-target="#slider" data-slide-to="0" class="active"></li>
+        <li data-target="#slider" data-slide-to="1"></li>
+        <li data-target="#slider" data-slide-to="2"></li>
+      </ul>
+    
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row" style="background-color: rgb(196, 158, 114);">
+            <ul class="col-4">
+                <li><p class="para1slider">Sách kết tinh tri thức nhân loại</p></li>
+                <li><div class="para2slider"><p>Sách tựa như những chuyến tàu tốc hành kỳ diệu đưa bạn đến thế giới mà trước đây bạn chưa từng đặt chân đến, giúp bạn biết về nó, hiểu về nó mà không cần mất quá nhiều thời gian, tiền bạc, công sức. Đọc sách chính là cách nhanh nhất để bạn khám phá thế giới mà không cần nhấc chân.</p></div></li>
+            </ul>
+            <div class="col-8"><img src="./img/Slider2.jpg" alt=""></div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="row" style="background-color: rgb(204, 134, 87);">
+            <ul class="col-4">
+              <li><p class="para1slider">Mỗi cuốn sách là một giấc mơ</p></li>
+              <li><div class="para2slider"><p>Vào khoảnh khắc mà chúng ta thuyết phục đứa trẻ, bất cứ đứa trẻ nào, bước qua bậc thềm ấy, bậc thềm màu nhiệm dẫn vào thư viện, ta đã thay đổi cuộc sống của nó mãi mãi, theo cách tốt đẹp hơn.</p></div></li>
+            </ul>
+            <div class="col-8"><img src="./img/Slider3.jpg" alt=""></div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="row" style="background-color: rgb(196, 114, 114);">
+            <ul class="col-4">
+              <li><p class="para1slider">Sách là tình yêu</p></li>
+              <li><div class="para2slider"><p>Một cuốn sách thực sự hay nên đọc trong tuổi trẻ, rồi đọc lại khi đã trưởng thành, và một nữa lúc tuổi già, giống như một tòa nhà đẹp nên được chiêm ngưỡng trong ánh bình minh, nắng trưa và ánh trăng. Một người bạn trung thành nhất và một tình yêu vĩnh cửu. </p></div></li>
+            </ul>
+            <div class="col-8"><img src="./img/Slider1.jpg" alt=""></div>
+          </div>
+        </div>
+      </div>
+    
+      <a class="carousel-control-prev" href="#slider" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#slider" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    
+    </div>
+
+    <div id="content">
+      <div  id="author1" class="author">
+        <h3>Một số tác giả tiêu biểu</h3>
+        <div class="row">
+          <div class="col-4">
+            <img src="./img/author_content/pic1.jpg" alt="">
+            <p>Nguyễn Nhật Ánh được biết đến với nhiều tác phẩm văn học về đề tài tuổi trẻ. Các tác phẩm của ông được độc giả ưa chuộng và có nhiều tác phẩm đã được chuyển thể thành phim.</p>
+          </div>
+          <div class="col-4">
+            <img src="./img/author_content/pic2.jpg" alt="">
+            <p>Tô Hoài - nhà văn của mọi lứa tuổi, ông đã để lại dấu ấn rực rỡ trên nhiều mảng sáng tác: những truyện đồng thoại cho thiếu nhi, những tác phẩm về con người và cuộc sống vùng cao.</p>
+          </div>
+          <div class="col-4">
+            <img src="./img/author_content/pic3.jpg" alt="">
+            <p>Nam Cao là nhà văn hiện thực lớn, một nhà báo kháng chiến, có nhiều đóng góp quan trọng đối với việc hoàn thiện phong cách truyện ngắn và tiểu thuyết Việt Nam ở nửa đầu thế kỉ 20.</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-4">
+            <img src="./img/author_content/pic4.jpg" alt="">
+            <p>Ngô Tất Tố là nhà văn hàng đầu của trào lưu hiện thực phê phán trước 1945. Các tác phẩm của ông tái hiện chân thực về xã hội đương thời tăm tối và bế tắc đã đẩy con người vào những cảnh ngộ vô cùng đau khổ.</p>
+          </div>
+          <div class="col-4">
+            <img src="./img/author_content/pic5.jpg" alt="">
+            <p>Nguyên Hồng là một nhà văn viết cho những tầng lớp thấp bé trong xã hội lúc bấy giờ. Ông có một tuổi thơ đầy u ám thế nên những trang văn của ông luôn đồng cảm với số phận của những người nông dân nghèo, phụ nữ và trẻ em.</p>
+          </div>
+          <div class="col-4">
+            <img src="./img/author_content/pic6.jpg" alt="">
+            <p>Nguyễn Ngọc Tư một giọng văn mềm mại mà sâu cay về những cuộc đời éo le, những số phận chìm nổi. Các tác phầm hấm đẫm cái tình của làng, của đất, của những con người chân chất nhưng ít nhiều gặp những bất hạnh.</p>
+          </div>
+        </div>
+      </div> 
+        
+      <div id="book1" class="book">
+        <h3>Một số sách nổi bật</h3>
+        <div class="row">
+          <div class="col-3">
+              <a href="/listproduct4/matbiec.html"><img src="./img/book_content/ListProduct4/pic1.jpg" alt=""></a>
+              <p>Mắt biếc<br>Giá: 30.000đ</p>
+          </div>
+          <div class="col-3">
+            <a href="/listproduct1/demenphieuluuki.html"><img src="./img/book_content/ListProduct1/pic2.jpg" alt=""></a>
+            <p>Dế mèn phiêu lưu kí<br>Giá: 25.000đ</p>
+          </div>
+          <div class="col-3">
+            <a href="/listproduct4/laohac.html"><img src="./img/book_content/ListProduct4/pic2.jpg" alt=""></a>
+            <p>Lão Hạc<br>Giá: 30.000đ</p>
+          </div>
+          <div class="col-3">
+            <a href="/listproduct1/chucuoi.html"><img src="./img/book_content/ListProduct1/pic1.jpg" alt=""></a>
+            <p>Sự tích chú cuội<br>Giá: 15.000đ</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-3">
+            <a href=""><img src="./img/book_content/ListProduct3/pic1.jpg" alt=""></a>
+            <p>Đề thi đẫm máu<br>Giá: 50.000đ</p>
+          </div>
+          <div class="col-3">
+            <a href=""><img src="./img/book_content/ListProduct3/pic2.jpg" alt=""></a>
+            <p>Phía sau nghi can<br>Giá: 75.000đ</p>
+          </div>
+          <div class="col-3">
+            <a href=""><img src="./img/book_content/ListProduct2/pic1.jpg" alt=""></a>
+            <p>Vợ yêu của ông trùm<br>Giá: 20.000đ</p>
+          </div>
+          <div class="col-3">
+            <a href=""><img src="./img/book_content/ListProduct4/pic3.jpg" alt=""></a>
+            <p>Cánh đồng bất tận<br>Giá: 30.000đ</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+
+    <div id="footer" style="width: 100%; height: 550px; background-color: #ccc;">
+      <h3 style="font-size: 40px; text-align: center; padding: 50px 0;">Thông tin chi tiết liên hệ</h3>
+      <div class="row" style=" margin: 0 200px; height: 250px;">
+        <div class="col-4"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3738.472666643509!2d106.33772851487358!3d20.445770786317073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135e4d6ada980c9%3A0xe3899718d799f678!2zVGjGsCB2aeG7h24gdOG7iW5oIFRow6FpIELDrG5o!5e0!3m2!1svi!2s!4v1633972102876!5m2!1svi!2s" width="250px" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+        <div class="col-4"><iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FTramDoc0909-105835201866208%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="250" height="100%" style="border:none;overflow:hidden"></iframe></div>
+        <div class="col-4">
+          <h3 style="text-align: center; font-style: italic; padding: 15px 0;">Tiệm sách Bunnie</h3>
+          <p style="text-align: justify; font-size: 17px; line-height: 25px;">Địa chỉ: Số nhà 39 đường Trần Thái Tông thành phố Thái Bình (gần trường THPT Nguyễn Đức Cảnh) <br><br>Mở cửa: Các ngày trong tuần từ 8h đến 17h30 <br><br>Hotline: +84866456116</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Messenger Plugin chat Code -->
+  <div id="fb-root"></div>
+
+  <!-- Your Plugin chat code -->
+  <div id="fb-customer-chat" class="fb-customerchat">
+  </div>
+
+  <script>
+    var chatbox = document.getElementById('fb-customer-chat');
+    chatbox.setAttribute("page_id", "105835201866208");
+    chatbox.setAttribute("attribution", "biz_inbox");
+
+    window.fbAsyncInit = function() {
+      FB.init({
+        xfbml            : true,
+        version          : 'v12.0'
+      });
+    };
+
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+  </script>
+</body>
+</html>
